@@ -1,0 +1,17 @@
+<div class="control-group">
+  <%= ff.label :subject, :class => 'control-label' %>
+  <div class="controls">
+    <%= ff.text_field :subject, :class => 'text_field' %>
+  </div>
+</div>
+
+<div class="control-group">
+  <%= ff.label :content, :class => 'control-label' %>
+  <div class="controls">
+    <%= ff.text_area :content, :class => 'text_field',:rows=>3 %>
+  </div>
+</div>
+
+<div class="control-group question-del">  
+	<%= ff.link_to_remove "Remove",:class => 'btn btn-primary' %>
+</div>

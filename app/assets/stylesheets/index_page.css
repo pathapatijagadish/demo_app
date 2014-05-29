@@ -1,0 +1,153 @@
+body{
+	background: url(/assets/blueblue9.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+div.form-actions{
+	background-color: lightgrey;
+}
+
+input[type="text"], textarea {
+
+  	background-color: lemonchiffon;
+  	width: 250px;
+}
+
+.control-label{	
+	color: rgb(237, 237, 240);
+}
+.outer_image {
+  background: url(/assets/body-bg3.jpg);
+  padding: 25px;
+}
+
+.new_edit_form {
+  background-color: grey;
+  border-color: lightgrey;
+  padding:13px 22px;
+  background-size: 100% 100%;
+  border: 1px solid gray;
+  border-radius: 2px 30px 2px 30px;
+  width: 60%;
+  margin: auto;
+}
+
+.index {
+ 	border-color: lightgrey;
+ 	padding:13px 22px 300px 60px;
+ 	margin: auto;
+ 	height: 80%;
+ 	width: 80%;
+}
+
+ 
+.navbar .nav > li > a{
+	color: lightgrey;
+}
+
+.brand{
+	 pointer-events: none;
+	 color: lightgrey;
+}
+
+.imgrow{
+	background:url(/assets/body-bg10.jpg) no-repeat;
+	float: left;
+	width: 23%;
+	background: transparent;
+	border: 2px dashed gray;
+	padding: 15px;
+	margin: 0px 70px 20px 0px ;
+	height: 350px;
+	border-radius: 0px 20px 0px 20px;
+}
+
+
+.imgrow a:hover{
+	background: transparent;
+	color: blue;
+}
+
+.imgrow:hover {
+	background: #47a877;
+}
+
+.imgrow img{
+	width: 99%;
+	height: 80%;
+	border-radius: 0px 0px 0px 0px;
+	border: 1px solid lightblue;
+}
+
+.imgrow .info-block {
+	display: inline-block;
+	background-color: grey;
+	background: #b4d3f2;
+	padding: 5px 2%;
+	width: 95%;
+	color: brown;
+	letter-spacing: 1px;
+	border: 1px solid #bbb;
+	border-top: none;
+	border-radius: 0px 0px 0px 0px;
+}
+
+.blocks-main {
+	width:100%;
+}
+
+.new_edit_form .page-header {
+	border-bottom: 1px dotted #af5;
+}
+
+.page-header {
+	border-bottom: 1px dotted #d76;
+}
+
+.page-header h1 {
+	color: brown;
+	text-shadow: 2px 2px #52a459;
+}
+
+ul.nav li a:hover {
+	background-color: lightblue !important;
+	font-size: 15px;
+}
+
+.btn-primary{
+	background: green !important;
+}
+
+.new_edit_form .mce-tinymce.mce-container.mce-panel {
+	width: 550px;
+}
+
+.new_edit_form .control-group .fields {
+	padding:5px 20px;
+	margin-bottom: 10px;
+}
+
+.close-btn {
+	border: 3px solid red;
+}
+
+
+.fbtns{
+	margin-left: 50px;
+	float:left;
+}
+
+.question-del {
+	float:right; 
+}
+
+.title_footer{
+	padding-top:5px;
+}
+
+#nav_bar{
+	background: #2f363b;
+}

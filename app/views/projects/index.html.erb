@@ -1,0 +1,32 @@
+<div class="index">
+  <%- model_class = Project -%>
+  <div class="inside_index">
+    <div class="page-header">
+        <h1><%=t '.title', :default => "Flyers" %></h1>
+        <%#= link_to t('.new', :default => t("helpers.links.new")),new_project_path,:class => 'btn btn-primary' %>
+    </div>
+    
+    <div class="blocks-main">
+        
+        <% @projects.each_with_index do |project| %>      
+          <div class="imgrow">
+            
+            <div class="outer_image">
+                <div class="info-block">
+                  <h5><%= project.name.to_s.camelcase %></h5>
+                </div>
+                <%=link_to image_tag(project.avatar.url(:medium)), edit_project_path(project) %>
+                <%#= link_to (image_tag asset_path("/assets/screenshot.png")), edit_project_path(project) %>
+            </div>
+            
+
+            <div class="title_footer">
+              <h5><%= project.name.to_s.camelcase %></h5>
+            <span><%="Updated #{time_ago_in_words(project.updated_at)} ago "%></em></span>
+            </div>
+          </div>
+        <% end %>
+
+    </div>
+  </div>
+</div>
